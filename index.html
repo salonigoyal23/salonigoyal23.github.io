@@ -4,10 +4,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!--==================== FAVICON ====================-->
-    <link rel="icon" href="assets/img/about.png" />
-
     <!--==================== UNICONS ====================-->
     <link
       rel="stylesheet"
@@ -76,8 +72,8 @@
                 download
                 class="nav__link nav-link resume"
                 target="_blank"
-                href="./assets/pdf/Saloni Goyal-Full Stack Web Developer (2).pdf"
-              >
+                href="./assets/pdf/Saloni-Goyal-Full-Stack-Web-Developer.pdf"
+                >
                 <i class="uil uil-file-blank nav__icon"></i>Resume
               </a>
             </li>
@@ -127,12 +123,6 @@
             </div>
             <!-- profile image -->
             <div class="home__img">
-              <img
-                src="./assets/img/tp.jpg"
-                class="home-img"
-                style="display: none"
-                alt=""
-              />
               <svg
                 class="home__blob"
                 viewBox="0 0 200 187"
@@ -988,7 +978,7 @@ Implemented user authentication and admin authentication features. Developed dyn
   <!--==================== GITHUB STATES LIBRARY ====================-->
   <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
   <script>
-    GitHubCalendar(".Github-calendar", "avisingh017", { responsive: true });
+    GitHubCalendar(".Github-calendar", "salonigoyal23", { responsive: true });
   </script>
 
   <!--==================== SWIPER JS ====================-->
@@ -1002,7 +992,7 @@ Implemented user authentication and admin authentication features. Developed dyn
 
   <script>
     // or enable responsive functionality
-    GitHubCalendar(".calendar", "avisingh017", {
+    GitHubCalendar(".calendar", "salonigoyal23", {
       responsive: true,
       global_stats: true,
       tooltips: true,
@@ -1049,34 +1039,5 @@ Implemented user authentication and admin authentication features. Developed dyn
 
     sr.reveal(".footer", {});
     sr.reveal(".footer_container>div", { interval: 100 });
-  </script>
-
-  <!-- ==================== PROJECT SLIDER ==================== -->
-  <script>
-    let swiperPortfolio = new Swiper(".swiper-container", {
-      cssMode: true,
-      loop: true,
-
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      keyboard: true,
-    });
-
-    var swiper = new Swiper(".mySwiper", {
-      direction: "vertical",
-      slidesPerView: 1,
-      spaceBetween: 30,
-      mousewheel: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
   </script>
 </html>
