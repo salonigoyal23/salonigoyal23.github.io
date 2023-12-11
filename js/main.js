@@ -196,9 +196,9 @@ themeButton.addEventListener('click', () => {
 // resume btns fucntion
 
 document.getElementById("resume-button-1").onclick = () => {
-    window.open("https://drive.google.com/file/d/1A2saODW_ZrBPZGn9y_CnWBvH97UtG7rh/view?usp=drive_link");
+    window.open("https://drive.google.com/file/d/1BuD1Eit6mnl8Cs57e1VEJXTphji2mpg4/view?usp=sharing");
 }
 
 document.getElementById("resume-button-2").onclick = () => {
-    window.open("https://drive.google.com/file/d/1A2saODW_ZrBPZGn9y_CnWBvH97UtG7rh/view?usp=drive_link");
+    window.open("https://drive.google.com/file/d/1BuD1Eit6mnl8Cs57e1VEJXTphji2mpg4/view?usp=sharing");
 }
