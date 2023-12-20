@@ -251,8 +251,8 @@ img {
 }
 
 .nav__list {
-    grid-template-columns: repeat(6, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
 }
 
 .nav__link {
