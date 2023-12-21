@@ -47,9 +47,9 @@ function toggleSkills() {
     }
 }
 
-skillsHeader.forEach((el) => {
-    el.addEventListener('click', toggleSkills)
-})
+// skillsHeader.forEach((el) => {
+//     el.addEventListener('click', toggleSkills)
+// })
 
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll('[data-target]'),
