@@ -198,7 +198,3 @@ themeButton.addEventListener('click', () => {
 document.getElementById("resume-button-1").onclick = () => {
     window.open("https://drive.google.com/file/d/1oU8ptBMDzV0OUuUSxrVeVKhBXciAV_6F/view?usp=sharing");
 }
-
-// document.getElementById("resume-button-2").onclick = () => {
-//     window.open("https://drive.google.com/file/d/1oU8ptBMDzV0OUuUSxrVeVKhBXciAV_6F/view?usp=sharing");
-// }
